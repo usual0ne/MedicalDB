@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1050.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clinic.classes.AddPatientWin">
+   <children>
+      <Label layoutX="206.0" layoutY="43.0" text="Enter the new patient's characteristics:">
+         <font>
+            <Font name="Times New Roman" size="42.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameField" layoutX="380.0" layoutY="155.0" prefHeight="60.0" prefWidth="295.0" promptText="Name and Surname">
+         <font>
+            <Font name="Times New Roman" size="23.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="hemoglobinField" layoutX="381.0" layoutY="250.0" prefHeight="60.0" prefWidth="295.0" promptText="Hemoglobin lv (100-180 g/l)">
+         <font>
+            <Font name="Times New Roman" size="23.0" />
+         </font>
+      </TextField>
+      <CheckBox fx:id="maleField" layoutX="380.0" layoutY="331.0" mnemonicParsing="false" onAction="#handleMaleField" prefHeight="60.0" prefWidth="91.0" text="Male">
+         <font>
+            <Font name="Times New Roman" size="23.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="femaleField" layoutX="570.0" layoutY="331.0" mnemonicParsing="false" onAction="#handleFemaleField" prefHeight="60.0" prefWidth="119.0" text="Female">
+         <font>
+            <Font name="Times New Roman" size="23.0" />
+         </font>
+      </CheckBox>
+      <Button fx:id="addAndCloseButton" layoutX="408.0" layoutY="434.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="235.0" text="Add patient and exit">
+         <font>
+            <Font name="Times New Roman" size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

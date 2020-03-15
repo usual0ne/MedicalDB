@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1050.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clinic.classes.CondStatsWin">
+   <children>
+      <PieChart fx:id="sexPieChart" layoutX="161.0" layoutY="125.0" prefHeight="500.0" prefWidth="700.0" style="-fx-font-size: 22 Times New Roman;" />
+      <Button fx:id="hemoglobinButton" layoutX="414.0" layoutY="26.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="223.0" text="Normal hemoglobin ">
+         <font>
+            <Font name="Times New Roman" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitButton" layoutX="793.0" layoutY="637.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="223.0" text="Exit">
+         <font>
+            <Font name="Times New Roman" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="pneumoniaButton" layoutX="72.0" layoutY="26.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="223.0" text="Pneumonia">
+         <font>
+            <Font name="Times New Roman" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="cataractButton" layoutX="750.0" layoutY="26.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="223.0" text="Cataract">
+         <font>
+            <Font name="Times New Roman" size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

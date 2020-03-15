@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1050.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clinic.classes.MenuWin">
+   <children>
+      <Label layoutX="474.0" layoutY="151.0" text="Menu">
+         <font>
+            <Font name="Times New Roman" size="44.0" />
+         </font>
+      </Label>
+      <MenuButton fx:id="menuButton" layoutX="410.0" layoutY="234.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="231.0" text="Select an action">
+        <items>
+          <MenuItem fx:id="addPatientButton" mnemonicParsing="false" text="Add patient" />
+          <MenuItem fx:id="showStatsButton" mnemonicParsing="false" text="Show Statistics" />
+            <MenuItem fx:id="showCondStatsButton" mnemonicParsing="false" text="Show Conditional Statistics" />
+        </items>
+         <font>
+            <Font name="Times New Roman" size="25.0" />
+         </font>
+      </MenuButton>
+   </children>
+</AnchorPane>

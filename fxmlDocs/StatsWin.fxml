@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1050.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clinic.classes.StatsWin">
+   <children>
+      <PieChart fx:id="doctorPieChart" layoutX="175.0" layoutY="139.0" prefHeight="500.0" prefWidth="700.0" style="-fx-font-size: 22 Times New Roman;" />
+      <Button fx:id="therapistButton" layoutX="99.0" layoutY="51.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="130.0" text="Therapist">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="oculistButton" layoutX="333.0" layoutY="51.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="130.0" text="Oculist">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="surgeonButton" layoutX="570.0" layoutY="51.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="130.0" text="Surgeon">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="labButton" layoutX="810.0" layoutY="51.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="130.0" text="Lab">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitButton" layoutX="845.0" layoutY="665.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="130.0" text="Exit">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
